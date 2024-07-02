@@ -14,10 +14,10 @@ provider "azurerm" {
 
 module "test153119" {
   source  = "tfe66.aws.munnep.com/test/test153119/azurerm"
-  version = "1.1.0"
-    providers = {
-    azurerm = azurerm.private-provider
-  }
+  version = "1.1.1"
+#    providers = {
+#    azurerm = azurerm.private-provider
+#  }
 }
 
 output "test" {
