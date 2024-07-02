@@ -9,15 +9,12 @@ terraform {
 
 provider "azurerm" {
   features {}
-#  alias="private-provider"
 }
 
 module "test153119" {
   source  = "tfe66.aws.munnep.com/test/test153119/azurerm"
-  version = "1.1.6"
-#    providers = {
-#    azurerm = azurerm.private-provider
-#  }
+  version = "1.1.7"
+
 }
  
 output "test" {
