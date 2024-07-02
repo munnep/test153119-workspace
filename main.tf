@@ -22,4 +22,4 @@ module "test153119" {
  
 output "test" {
     value = "working"
-}
+} 
