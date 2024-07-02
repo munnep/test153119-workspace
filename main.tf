@@ -13,7 +13,7 @@ provider "azurerm" {
 
 module "test153119" {
   source  = "tfe66.aws.munnep.com/test/test153119/azurerm"
-  version = "1.1.7"
+  version = "1.1.6"
 
 }
  
